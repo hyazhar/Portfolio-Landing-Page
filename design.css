@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   margin: 0;
   padding: 0;
@@ -106,3 +107,113 @@ header a{
   border-radius: 5px;
   font-size: 18px;
 }
+=======
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  position: relative;
+}
+.logo{
+  width: 10%;
+  font-size: 24px;
+  font-weight: bold;
+  border-right: 1px solid #ccc;
+  padding: 20px 40px;
+}
+.menus{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-right: 1px solid #ccc;
+  padding: 20px 40px;
+}
+.links{
+  display: flex;
+}
+.links a{
+  text-decoration: none;
+  color: #333;
+  padding: 0px 20px;
+  font-size: 18px;
+  text-transform: capitalize;
+  position: relative;
+}
+.links a::after{
+  content: '';
+  display: block;
+  width: 10px;
+  height: 2px;
+  background: #333;
+  transition: width .3s;
+}
+.links a:hover::after{
+  width: 100%;
+  background-color: #FDBC3A;
+}
+.social-media-icons{
+  display: flex;
+}
+.social-media-icons a{
+  text-decoration: none;
+  color: #5f5c5c;
+  padding: 0 5px;
+  font-size: 20px;
+}
+.social-media-icons a:hover{
+  color: #FDBC3A;
+}
+.extra-icon{
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+.extra-icon i{
+  font-size: 20px;
+  color: #5f5c5c;
+  padding: 0 15px;
+}
+.extra-icon i:hover{
+  color: #FDBC3A;
+} 
+.hamburger{
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 20px;
+}
+.header-content{
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzaWduJTIwc3R1ZGlvfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+header h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+header p{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+header a{
+  text-decoration: none;
+  color: #fff;
+  background: #FDBC3A;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+>>>>>>> 23fae619d66a8a2b2e5471e386cf27ba9708c730
